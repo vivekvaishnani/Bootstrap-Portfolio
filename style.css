@@ -1,4 +1,13 @@
 
+
+body {
+    background-image: url(images/modern-wallpaper.jpg);
+}
+
+
+
+
+
 .navbar {
     align-content: center;
     min-height: 80px;
@@ -43,12 +52,15 @@
     color: black;
 
 }
-
+#indeximg {
+    float: left;
+    margin: 10px;
+}
 p {
-    
-    font-size:15px;
-    
-    
+    color: white;
+    position: relative;
+    font-size:18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p1  {
@@ -59,5 +71,7 @@ p1  {
 }
 
 #footer {
+    padding: 10px;
     background-color: rgb(163, 163, 223);
+    align-content: center
 }
