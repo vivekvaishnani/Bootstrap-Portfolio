@@ -1,0 +1,66 @@
+
+
+body {
+    
+    background-image: url(images/modern-wallpaper.jpg);
+}
+
+
+
+#logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  
+    /* Visual */
+    background: #4aaaa5;
+  }
+  
+  /* override bootstrap hover color and border */
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #4aaaa5;
+  }
+  
+  .navbar {
+    border: none;
+  }
+  
+  /* media query for nav background color change */
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #4aaaa5;
+    }
+  }
+
+
+
+
+
+
+#indeximg {
+    float: left;
+    margin-right: 10px;
+}
+ p { 
+    position: relative;
+    color: white;
+    font-size:18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p1  {
+    color: white;
+    font-size:20px;
+    
+
+}
+
+#footer {
+    padding: 10px;
+    background-color: rgb(163, 163, 223);
+    align-content: center;
+    text-align: center;
+}
